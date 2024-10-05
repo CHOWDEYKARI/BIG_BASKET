@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigBasket - Online Grocery Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+}
+
+.marquee {
+    display: inline-block;
+    
+    animation: marquee 25s linear infinite;
+}
+
+.product {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #4CAF50;
+    color: blue;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.banner {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h2 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #888;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+</style>
+</head>
+
+<body>
+    <header>
+         <div class="container">
+            <h1>BigBasket Online Shopping Mall</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.bigbasket.com/">Home Page</a></li>
+                    <li><a href="https://www.bigbasket.com/privacy-policy/?nc=bt">Privacy Policy</a></li>
+                    <li><a href="https://www.bigbasket.com/about-us/?nc=bt">About Us</a></li>
+                    <li><a href="http://www.bigbasket.com/contact/">Contact Us</a></li>
+                    <li><a href=https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp">Get it in Google
+                            Play App</a></li>
+                    <li><a href=https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp">Download on Apple
+                            App Store</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Welcome to BigBasket</h2>
+            <p>Your one-stop shop for all your grocery needs!</p>
+        <p>CREATED AND DESIGNED BY MAHESHWER CHOWDEYKARI</p>
+        </section>
+        <div class="marquee-container">
+            <div class="marquee">
+                <div class="product"><img
+                        src="https://www.bigbasket.com/media/uploads/p/m/40260443_10-cadbury-oreo-chocolatey-sandwich-biscuit-crunchy-vanilla-flavour-mega-family-pack.jpg?tr=w-1920,q=80">
+                </div>
+                <div class="product"><img
+                        src="https://www.bigbasket.com/media/uploads/p/m/10000074_19-fresho-cauliflower.jpg?tr=w-1920,q=80">
+                </div>
+                <div class="product"><img
+                        src="https://www.bigbasket.com/media/uploads/p/m/1224870_1-littles-baby-wipes-with-aloe-vera-jojoba-oil-vitamin-e.jpg?tr=w-1920,q=80">
+                </div>
+                <div class="product"><img
+                        src="https://www.bigbasket.com/media/uploads/p/m/1223255_1-coca-cola-soft-drink.jpg?tr=w-1920,q=80">
+                </div>
+                <!-- Add more products here -->
+            </div>
+        </div>
+        <!-- Product Listings -->
+        <section class="products">
+            <!-- Product Cards will go here -->
+            <section class="products">
+
+                <div class="product">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40254147_4-tata-coffee-gold-100-pure-coffee-original-robusta-arabica-blend-rich-full-bodied-taste.jpg?tr=w-1920,q=80"
+                        alt="Product out of stock">
+                    <h3>Tata Coffee Gold - 100% Pure Coffee, Original , Robusta & Arabica Beans Blend, 95 g Jar</h3>
+                    <p>&#8377;390.</p>
+                    <a href="https://www.bigbasket.com/basket/" target="_blank"><button>Add to Cart</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40275722_4-bru-gold-premium-freeze-dried-coffee-100-pure-strong-intense-aromatic.jpg?tr=w-1920,q=80"
+                        alt="Product">
+                    <h3>BRU Gold Premium Freeze Dried Coffee - 100% Pure, Strong, Intense Aromatic, 100 g</h3>
+                    <p>&#8377;435.</p>
+                    <a href="https://www.bigbasket.com/basket/"><button>Add to Cart</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40212804_2-surya-flame-4-burner-glaze-ms-cook-top-gas-stove-manual-ignition.jpg?tr=w-1920,q=80"
+                        alt="Product out of stock">
+                    <h3>Surya Flame 4 Burner Glaze MS Cook Top Gas Stove - Manual Ignition, 1 pc</h3>
+                    <p>&#8377;3789.</p>
+                    <a href="https://www.bigbasket.com/basket/"><button>Add to Cart</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40237751_1-syska-mwp-003-smart-wi-fi-plug-controls-devices-using-the-mobile-app-supports-google-assistant-white.jpg?tr=w-1920,q=80"
+                        alt="Product">
+                    <h3>Syska Smart Wi-Fi Plug - Plastic, Controls Your Devices Using The Mobile App, 1 pc</h3>
+                    <p>&#8377;699.</p>
+                    <a href="https://www.bigbasket.com/basket/"><button>Add to Cart</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40254147_4-tata-coffee-gold-100-pure-coffee-original-robusta-arabica-blend-rich-full-bodied-taste.jpg?tr=w-1920,q=80"
+                        alt="Product out of stock">
+                    <h3>Tata Coffee Gold - 100% Pure Coffee, Original , Robusta & Arabica Beans Blend, 95 g Jar</h3>
+                    <p>&#8377;390.</p>
+                    <a href="https://www.bigbasket.com/basket/"><button>Add to Cart</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40322047_1-havells-hd3151-foldable-hair-dryer-3-heat-settings-with-cool-shot-button.jpg?tr=w-1920,q=80"
+                        alt="Product">
+                    <h3>Havells HD3151 Foldable Hair Dryer - 3 Heat Settings With Cool Shot Button, 1 pc</h3>
+                    <p>&#8377;999.</p>
+                    <a href="https://www.bigbasket.com/basket/"><button>Add to Cart</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40317736_1-prestige-delight-electric-rice-cooker-2-double-pots-white.jpg?tr=w-1920,q=80"
+                        alt="Product out of stock">
+                    <h3>Prestige Electric Rice Cooker PRWO With 2 Aluminium Cooking Pans, Steel Lid, Grey/White, 1.8 l
+                    </h3>
+                    <p>&#8377;2299.</p>
+                    <a href="https://www.bigbasket.com/basket/"><button>Add to Cart</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40323403_1-prestige-prestige-breeze-500w-juicer-mixer-grinder-with-2-stainless-steel-jarsdetachable-pulp-collectordouble-lock-systemefficient-stainless-steel-sievejuice-outletblue-white.jpg?tr=w-1920,q=80"
+                        alt="Product">
+                    <h3>Prestige Electric Rice Cooker PRWO With 2 Aluminium Cooking Pans, Steel Lid, Grey/White, 1.8 l
+                    </h3>
+                    <p>&#8377;2999.</p>
+                    <a href="https://www.bigbasket.com/basket/"><button>Add to Cart</button></a>
+                </div>
+                <!-- Add more product cards as needed -->
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BigBasket. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
